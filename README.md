@@ -9,6 +9,10 @@ brew install zsh
 ```
 
 ```text
+instalar o oh-my-zsh
+```
+
+```text
 brew install --cask raycast
 ```
 
@@ -33,9 +37,18 @@ brew install --cask visual-studio-code
 
 brew install --cask android-studio
 
+brew install --cask 1clipboard
+
+brew install nvm
+
 brew tap leoafarias/fvm
 brew install fvm
 ```
+
+<br>
+
+`instalar autosuggesions e zsh-syntax-highlighting`
+https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df
 
 ### Configurar zsh
 
@@ -80,7 +93,3 @@ export NVM_DIR="$HOME/.nvm"
 ### Configurar flutter
 
 -  No caminho `~/www/utils/` colocar a pasta do flutter e apontar no .zshrc
-
-### Configurar nvm
-
--  `brew install nvm` colocar no .zshrc a parte que fala do NVM
