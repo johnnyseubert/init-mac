@@ -43,6 +43,8 @@ brew install nvm
 
 brew tap leoafarias/fvm
 brew install fvm
+
+instalar pela loja da apple o flutter sidekick para versionamento do flutter
 ```
 
 <br>
@@ -58,6 +60,7 @@ SPACESHIP_PROMPT_ORDER=(
   user          # Username section
   dir           # Current directory section
   host          # Hostname section
+  node          # Node version
   git           # Git section (git_branch + git_status)
   hg            # Mercurial section (hg_branch  + hg_status)
   exec_time     # Execution time
@@ -84,6 +87,20 @@ alias lsort="du -sh * | sort -h"
 
 # FLUTTER
 export PATH="$HOME/www/utils/flutter/bin:$PATH"
+
+# Alias para trocar as versoes do node na maquina
+alias node18="nvm alias default 18.20.3 && nvm use default"
+alias node20="nvm alias default 20.15.0 && nvm use default"
+alias node16="nvm alias default 16.20.2 && nvm use default"
+
+
+#Exports de java exemplo
+
+# JAVA 17
+export JAVA_HOME=/Users/johnnyblasiusseubert/Library/Java/JavaVirtualMachines/corretto-17.0.11/Contents/Home
+# JAVA 11
+#export JAVA_HOME=/opt/homebrew/Cellar/openjdk@11/11.0.23
+export PATH=$JAVA_HOME/bin:$PATH
 
 #NVM
 export NVM_DIR="$HOME/.nvm"
